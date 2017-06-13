@@ -1,0 +1,14 @@
+digraph try {
+1->2 [dir=none color=red];
+2->4 [dir=none color=red];
+4->8 [dir=none color=red];
+8->16 [dir=none color=red];
+16->5 [dir=none color=red];
+16->32 [dir=none color=red];
+5->10 [dir=none color=red];
+32->64 [dir=none color=red];
+10->3 [dir=none color=red];
+10->20 [dir=none color=red];
+64->21 [dir=none color=red];
+64->128 [dir=none color=red];
+rankdir=UD;}
